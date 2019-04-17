@@ -1,0 +1,28 @@
+Meta_data code:
+
+def set_meta_data(analysis,run_id,server,data,model_path,run_time,scale,model,balance,balance_threshold,name,path,nthreads,min_mem_size):
+  m_data={}
+  # m_data['target']=target
+  #m_data['classification']=classification
+  m_data['run_time']=run_time
+  m_data['run_id'] =run_id
+  m_data['max_models']=model
+#   m_data['Shape_Rows*Cols'] = shape
+  m_data['start_time'] = time.time()
+#   m_data['model_execution_time'] = execution
+  m_data['server_path']=server
+  m_data['data_path']=data 
+#  m_data['test_path']=test
+  m_data['max_models']=model 
+  m_data['scale']=scale  
+  m_data['scale']=False
+  m_data['model_path']=model_path
+  m_data['balance']=balance
+  m_data['balance_threshold']=balance_threshold
+  m_data['project'] =name
+  m_data['end_time'] = time.time()  
+  m_data['run_path'] =path
+  m_data['nthreads'] = nthreads
+  m_data['min_mem_size'] = min_mem_size
+  m_data['analysis'] = analysis
+  return m_data
