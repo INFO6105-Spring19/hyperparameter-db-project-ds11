@@ -1,0 +1,22 @@
+{
+    "start_time": 1555538157.488968,
+    "target": "base_annualized_salary",
+    "server_path": "/content/9KrAgkKx5/1qGiDNpUh/eiyOYLQvw/nsIgc06Od",
+    "data_path": null,
+    "test_path": null,
+    "max_models": 9,
+    "run_time": 1300,
+    "run_id": "lkRZt4xpO",
+    "scale": false,
+    "classification": false,
+    "model_path": null,
+    "balance": false,
+    "balance_threshold": 0.2,
+    "project": null,
+    "end_time": 1555538157.4889708,
+    "execution_time": 0.0,
+    "run_path": "/content/9KrAgkKx5/1qGiDNpUh/eiyOYLQvw/nsIgc06Od/lkRZt4xpO",
+    "nthreads": 1,
+    "min_mem_size": 6,
+    "analysis": 0
+}
